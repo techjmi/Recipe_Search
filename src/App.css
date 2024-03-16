@@ -1,7 +1,7 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,20 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +21,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* responsive css media query css */
+@media (max-width: 650px) {
+ .box{
+  width: 98% !important;
+  margin: auto;
+ }
+ .image_class{
+ margin: 0 !important;
+ }.search_box{
+  width: 100% !important;
+  margin: 0 5px;
+ }
+ .details_box{
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  margin: 0 5px;
+  gap: 1.3rem;
+ }
+
+ .details_image{
+  width: fit-content;
+ }
+ .list_box{
+  width: 100% !important;
+ }
+ .list_image{
+  width:100% !important;
+  aspect-ratio: 4/3;
+ }
+ .header_home{
+  font-size: 32px !important;
+  font-weight: bold !important;
+ }
+}
+/* css  */
+.bg_Image{
+  position: relative;
+  background: linear-gradient(rgba(8, 8, 8, 0.3), rgba(8, 8, 8, 0.3)), url('https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg');
+  min-height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-input {
+ border-radius: 10px !important;
+
 }
