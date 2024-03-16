@@ -1,4 +1,4 @@
-Sure, here's a basic template for your `README.md` file:
+
 
 ```
 # Recipe Search App
