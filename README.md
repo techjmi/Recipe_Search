@@ -1,83 +1,51 @@
+# Recipe Search Application
 
-
-```
-# Recipe Search App
-
-A web application for searching and exploring recipes using the Forkify API. Built with Material-UI and React.js, this app provides a responsive user interface for searching, viewing, and saving recipes.
+This project is a recipe search application created using ReactJS, Material-UI, and the Forkify API. It allows users to search for recipes based on keywords and view details about each recipe, including the publisher. The application provides a seamless user experience with responsive design and Material-UI components.
 
 ## Features
 
-- Search for recipes using keywords or ingredients
-- View detailed information and instructions for each recipe
-- Save favorite recipes for later reference
-- Responsive design for seamless usage on various devices
-
-## Technologies Used
-
-- React.js
-- Material-UI
-- Forkify API (https://forkify-api.herokuapp.com/api)
-
-## Installation
-
-To run the app locally, follow these steps:
-
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/techjmi/Recipe_Search.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd recipe-search-app
-   ```
-
-3. Install dependencies:
-
-   ```
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```
-   npm start
-   ```
-
-5. Open your web browser and visit `http://localhost:3000` to view the app.
-
-## Usage
-
-- Enter keywords or ingredients into the search bar to find recipes.
-- Click on a recipe card to view detailed information and instructions.
-- Save favorite recipes by clicking the "Save" button.
-- Access saved recipes by navigating to the "Favorites" section.
+- **Recipe Search**: Users can search for recipes by entering keywords in the search bar.
+- **Detailed Recipe Information**: Users can view detailed information about each recipe, including ingredients, cooking instructions, and the publisher.
+- **Responsive Design**: The project is designed using Material-UI components and is responsive, working seamlessly across different devices and screen sizes.
 
 ## Demo
 
-[Link to live demo](#) - Coming soon!
+You can see a live demo of the project [here](https://brilliant-sprite-34b3f9.netlify.app/).
 
-## Screenshots
-![Screenshot 1](https://github.com/techjmi/Recipe_Search/raw/main/public/recipeSS1.png)
+## Created By
 
-![Screenshot 2](https://github.com/techjmi/Recipe_Search/raw/main/public/recipeSS2.png)
+This project was created by [Md Shamim Akhter](https://musical-mooncake-8fc409.netlify.app/).
+
+## Usage
+
+To use this project:
+
+1. Clone the repository to your local machine:
+
+    ```
+    git clone https://github.com/techjmi/recipe-search-app.git
+    ```
+
+2. Navigate to the project directory:
+3. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```
+    npm start
+    ```
+
+5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+
+6. Search for recipes by entering keywords in the search bar and explore detailed information about each recipe.
 
 ## Contributing
 
-Contributions are welcome! Feel free to open an issue or submit a pull request to suggest improvements or report bugs.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-Special thanks to the creators of the Forkify API for providing the recipe data used in this application.
-```
-
-
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 # Getting Started with Create React App
 
